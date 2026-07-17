@@ -1295,7 +1295,7 @@
             if (audioUnlocked || !bgMusic) return;
             bgMusic.muted = true;
             bgMusic.volume = 0;
-            bgMusic.currentTime = 0;
+            bgMusic.currentTime = 2;
             bgMusic.play().then(() => {
                 // เล่นอยู่แบบ mute ไว้ก่อน — รอตอน progress ครบค่อย unmute
                 audioUnlocked = true;
